@@ -139,7 +139,7 @@
 }
 
 /* SM screen from 576 to 767px*/
-@media screen and (min-width: 576) {
+@media screen and (min-width: 576px) {
     
     .col-sm-1 {
         flex-basis: calc(100% / 12 * 1);
@@ -248,7 +248,7 @@
 }
 
 /* MD screen from 768 to 991px*/
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
     
     .col-md-1 {
         flex-basis: calc(100% / 12 * 1);
@@ -357,7 +357,7 @@
 }
 
 /* LG screen from 992px*/
-@media screen and (min-width: 992) {
+@media screen and (min-width: 992px) {
     
     .col-lg-1 {
         flex-basis: calc(100% / 12 * 1);
