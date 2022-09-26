@@ -1,0 +1,11 @@
+/* DEBUG */
+.box-blue {
+    background-color: #006cfa;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+
+    height: 40px;
+    text-align: center;
+    padding: 0.6rem;
+}
+
