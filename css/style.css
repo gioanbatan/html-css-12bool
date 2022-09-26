@@ -4,7 +4,7 @@
     border: 1px solid #ffffff;
     color: #ffffff;
 
-    /* height: 40px; */
+    min-height: 50px;
     text-align: center;
     padding: 0.6rem;
 }
@@ -17,4 +17,8 @@
     /* height: 40px; */
     text-align: center;
     padding: 0.6rem;
+}
+
+[class^="part"] {
+    padding-bottom: 10px;
 }
