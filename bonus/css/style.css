@@ -7,10 +7,15 @@
     --col-black: #000000;
 }
 
+/* UTILITIES */
+.pad-top {
+    padding-top: 10px;
+}
+
 /* Pixels */
 .pal-col-bck {
     background-color: var(--pal-col-bck);
-    border: 2px solid var(--col-black);
+    border: 2px dashed var(--col-black);
 
     width: 100%;
     height: 30px;
@@ -18,7 +23,7 @@
 
 .pal-col-1 {
     background-color: var(--pal-col-1);
-    border: 2px solid var(--col-black);
+    border: 2px dashed var(--col-black);
 
     width: 100%;
     height: 30px;
@@ -26,16 +31,26 @@
 
 .pal-col-2 {
     background-color: var(--pal-col-2);
-    border: 2px solid var(--col-black);
+    border: 2px dashed var(--col-black);
 
     width: 100%;
     height: 30px;
 }
 
 .pal-col-3 {
-    background-color: var(--pal-col-3;
-    border: 2px solid var(--col-black);
+    background-color: var(--pal-col-3);
+    border: 2px dashed var(--col-black);
 
     width: 100%;
     height: 30px;
+}
+
+/* DEBUG */
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-red {
+    background-color: red;
 }
